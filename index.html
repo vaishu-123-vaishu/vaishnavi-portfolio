@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KURUVA VAISHNAVI • Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-700 text-white font-sans">
+  <header class="text-center py-12">
+    <h1 class="text-5xl font-extrabold drop-shadow-lg">KURUVA VAISHNAVI</h1>
+    <p class="mt-3 text-2xl font-light">Programmer | Cloud & Application Developer</p>
+    <div class="mt-6 flex justify-center gap-4 flex-wrap">
+      <a href="https://www.linkedin.com/in/kuruva-vaishnavi-030a4536a" target="_blank" class="btn">LinkedIn</a>
+      <a href="mailto:vaishnavikottela@gmail.com" class="btn">Email</a>
+      <a href="https://www.learnvern.com/resume/vaishnavi-vaishu-1752932469" target="_blank" class="btn">Resume</a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 space-y-12">
+    <section class="card">
+      <h2 class="section-title">About Me</h2>
+      <p>Core Java & Python developer skilled in AWS (EC2, S3, IAM, VPC), MySQL, and MongoDB. Deployed projects like brastia.com on AWS EC2. Passionate about building scalable, secure cloud applications.</p>
+    </section>
+    <section class="card">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="flex flex-wrap gap-2">
+        <span class="chip">Java</span><span class="chip">Python</span><span class="chip">HTML</span><span class="chip">SQL</span><span class="chip">JSON</span><span class="chip">MongoDB</span><span class="chip">AWS (EC2, S3, IAM, VPC)</span>
+      </div>
+    </section>
+    <section class="card">
+      <h2 class="section-title">Experience</h2>
+      <p><strong>Cloud Application Developer (Trainee)</strong> - Rooman Technologies Pvt Ltd (May 2025 – Jul 2025)</p>
+    </section>
+    <section class="card">
+      <h2 class="section-title">Education</h2>
+      <p><strong>B.Tech / BE</strong> - St. John's College of Engineering and Technology (2022 – Current) <br>Aggregate: 78.8%</p>
+      <h3 class="mt-3 font-semibold">Courses</h3>
+      <ul class="list-disc list-inside"><li>Python, AWS, Java – Learnvern</li><li>HTML, Python, AWS – Learnvern</li></ul>
+    </section>
+    <section class="card">
+      <h2 class="section-title">Hobbies & Languages</h2>
+      <p><strong>Hobbies:</strong> Watching movies, Playing games</p>
+      <p><strong>Languages:</strong> English, Telugu, Kannada, Hindi (Intermediate)</p>
+    </section>
+  </main>
+
+  <footer class="py-6 text-center bg-black/30 mt-12">
+    <p>© <span id="year"></span> KURUVA VAISHNAVI | Designed with ❤️</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
